@@ -1,0 +1,59 @@
+/* logos gastilva */
+.logo {
+    margin-left: 54px;
+    vertical-align: middle;
+    margin-top: 29px;
+}
+.navigation {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 29px;
+}
+.home {
+    display: inline-block;
+    margin-left: 75px;
+
+}
+.head {
+    background-color: #fff;
+    
+}
+.foto {
+    width: 100%;
+    margin-top: 30px;
+
+}
+.our_prod {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 49px;
+    margin-bottom: 50px;
+}
+    
+
+
+
+
+.prod_box {
+    width: 1440px;
+    margin: 0 auto;
+    
+   
+}
+
+.small_box {
+    width: 285px;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+.cont_2 {
+    width: 1183px;
+    margin: 0 auto;
+}
+.text_box {
+    width: 559px;
+    margin: 0 auto;
+    text-align: center;
+}
