@@ -1,67 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HW 4 - Fonts</title>
+
+  
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-    <header class="head">
-        <img class="logo" src="images/images.svg" alt="">
-    <nav class="navigation">
-        <ul>
-            <li class="home" class="home1">
-                <a  href="#">Home</a>
-            </li>
-            <li class="home">
-                <a  href="#">Shop</a>
-            </li>
-            <li class="home">
-                <a  href="#">About</a>
-            </li>
-            <li class="home">
-                <a  href="#">Contact</a>
-            </li>
-        </ul>
+<body class="poppins-medium">
+  
+  <header>
+    <div class="header container">
+      <div class="logo">
+        <a href="index.html"><img src="./images/logo.svg" alt="logo" /></a>
+      </div>
 
-    </nav>
+      <div class="navigation_wrapper">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  <main>
+    
+    <section class="banner_img"></section>
+
+    
+    <section class="our_products_section">
       
+      <h2>Our Products</h2>
 
-    </header>
-    <section>
-        <img class="foto" src="images/im.png" alt="">
-
-    </section>
-    <h2 class="our_prod" > Our Products</h2>
-    <section>
-        <div class="prod_box">
-            <div class="small_box">
-                <img src="images/Featured Products.png" alt="">
-            </div>
-            <div class="small_box">
-                <img src="images/2.png" alt="">
-            </div>
-            <div class="small_box">
-                <img src="images/3.png" alt="">
-            </div>
-            <div class="small_box">
-                <img src="images/4.png" alt="">
-            </div>
-
-
+      
+      <div class="products_blocks_wrapper container">
+        
+        <div class="products_block">
+          <img src="./images/block_image_1.png" alt="block-imag" />
+          <h3>Helio</h3>
+          <p>Stylish cafe chair</p>
         </div>
-    </section>
 
-    <section>
-        <div class="cont_2">
-            <div class="text_box">
-                <h2>Browse The Range</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            
-
+    
+        <div class="products_block">
+          <img src="./images/block_image_2.png" alt="block-image" />
+          <h3>Zephyr</h3>
+          <p>Stylish cafe chair</p>
         </div>
+
+        
+        <div class="products_block">
+          <img src="./images/block_image_3.png" alt="block-image" />
+          <h3>Nova</h3>
+          <p>Luxury big sofa</p>
+        </div>
+
+        
+        <div class="products_block">
+          <img src="./images/block_image_4.png" alt="block-image" />
+          <h3>Altair</h3>
+          <p>Outdoor bar table and stool</p>
+        </div>
+      </div>
     </section>
+
+    
+    <section class="categories_section">
+      
+      <h2>Browse The Range</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      
+      <div class="categories_blocks_wrapper container">
+       
+        <div class="categories_block">
+          <img src="./images/categories_image_1.png" alt="category-image" />
+          <h4>Dining</h4>
+        </div>
+
+        
+        <div class="categories_block">
+          <img src="./images/categories_image_2.png" alt="category-image" />
+          <h4>Living</h4>
+        </div>
+
+       
+        <div class="categories_block">
+          <img src="./images/categories_image_3.png" alt="category-image" />
+          <h4>Bedroom</h4>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="description_section">
+      <div class="description_section_container">
+        <div class="description_section_heading">
+          <h3>Description</h3>
+          <h3>Additional Information</h3>
+        </div>
+
+        <p>
+          Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+          portable active stereo speaker takes the unmistakable look and sound
+          of Marshall, unplugs the chords, and takes the show on the road.
+        </p>
+
+        <p>
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+          vintage styled engineering. Setting the bar as one of the loudest
+          speakers in its class, the Kilburn is a compact, stout-hearted hero
+          with a well-balanced audio which boasts a clear midrange and
+          extended highs for a sound that is both articulate and pronounced.
+          The analogue knobs allow you to fine tune the controls to your
+          personal preferences while the guitar-influenced leather strap
+          enables easy and stylish travel.
+        </p>
+      </div>
+
+      <div class="categories_images">
+        <div><img src="./images/sofa_image_1.png" alt="sofa-img" /></div>
+        <div><img src="./images/sofa_image_2.png" alt="sofa-img" /></div>
+      </div>
+    </section>
+
+    
+    <section class="yellow_bg_section">
+      <div class="yellow_bg_section_block">
+        <h5>High Quality</h5>
+        <p>crafted from top materials</p>
+      </div>
+
+      <div class="yellow_bg_section_block">
+        <h5>Warranty Protection</h5>
+        <p>Over 2 years</p>
+      </div>
+
+      <div class="yellow_bg_section_block">
+        <h5>Free Shipping</h5>
+        <p>Order over 150 $</p>
+      </div>
+
+      <div class="yellow_bg_section_block">
+        <h5>24 / 7 Support</h5>
+        <p>Dedicated support</p>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer>
+    <div class="footer_content">
+      
+      <div class="footer_column">
+       
+        <div class="logo">
+          <a href="index.html"
+            ><img src="./images/footer_logo.svg" alt="logo"
+          /></a>
+        </div>
+
+        
+        <p class="location">
+          <a
+            href="https://www.google.com/maps/place/400+University+Dr+%23200,+Coral+Gables,+FL+33134,+USA/@25.7415497,-80.2653708,17z/data=!3m1!4b1!4m6!3m5!1s0x88d9b73d9fa9d32b:0x6eab0b49669eea26!8m2!3d25.7415497!4d-80.2627959!16s%2Fg%2F11sjj_p8yz?entry=ttu"
+            >400 University Drive Suite 200 Coral Gables, FL 33134 USA</a
+          >
+        </p>
+      </div>
+
+      
+      <div class="footer_column">
+        <h5>Links</h5>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      
+      <div class="footer_column">
+        <h5>Help</h5>
+
+        <ul>
+          <li><a href="#">Payment Options</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policies</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
+
